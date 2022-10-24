@@ -4,9 +4,9 @@
  
 ## Installation 💡 
  TENDRAS QUE MODIFICAR TANTO COMO EN EL PROYECTO WCF Y EL PROYECTO MVC LOS ARCHIVOS "WEB.CONFIG".
-EN MI CASO LO ENCONTRARAS ASI:
+### EN MI CASO LO ENCONTRARAS ASI:
 -"address="http://localhost/Service1.svc/mex"
-TIENES QUE EDITARLO DE ESTA FORMA:
+### TIENES QUE EDITARLO DE ESTA FORMA:
  -"address="http://localhost:TUPUERTODESALIDA/Service1.svc/mex"
  
 ## App features 🪐
