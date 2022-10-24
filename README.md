@@ -5,13 +5,9 @@
 ## Installation 💡 
  TENDRAS QUE MODIFICAR TANTO COMO EN EL PROYECTO WCF Y EL PROYECTO MVC LOS ARCHIVOS "WEB.CONFIG".
 EN MI CASO LO ENCONTRARAS ASI:
--"<endpoint address="http://localhost/Service1.svc/mex" binding="wsHttpBinding"
-		  bindingConfiguration="MetadataExchangeHttpBinding_Service1" contract="ServiceReference1.IService1"
-		  name="MetadataExchangeHttpBinding_Service1" />"
+-"address="http://localhost/Service1.svc/mex"
 TIENES QUE EDITARLO DE ESTA FORMA:
- -"<endpoint address="http://localhost:TUPUERTODESALIDA/Service1.svc/mex" binding="wsHttpBinding"
-		  bindingConfiguration="MetadataExchangeHttpBinding_Service1" contract="ServiceReference1.IService1"
-		  name="MetadataExchangeHttpBinding_Service1" />"
+ -"address="http://localhost:TUPUERTODESALIDA/Service1.svc/mex"
  
 ## App features 🪐
  - LISTAR TAREAS
