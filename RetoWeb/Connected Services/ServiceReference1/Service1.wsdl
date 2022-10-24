@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:53541/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:53541/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:53541/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ProyectoWCF" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_ObtenerTareas_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTareas" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerTareas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTareasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertarTarea_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarTarea" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertarTarea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarTareaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditarTarea_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditarTarea" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditarTarea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditarTareaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarTarea_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarTarea" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarTarea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarTareaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="ObtenerTareas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerTareas" message="tns:IService1_ObtenerTareas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerTareasResponse" message="tns:IService1_ObtenerTareas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarTarea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertarTarea" message="tns:IService1_InsertarTarea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertarTareaResponse" message="tns:IService1_InsertarTarea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarTarea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditarTarea" message="tns:IService1_EditarTarea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditarTareaResponse" message="tns:IService1_EditarTarea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarTarea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EliminarTarea" message="tns:IService1_EliminarTarea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EliminarTareaResponse" message="tns:IService1_EliminarTarea_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerTareas">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerTareas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarTarea">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertarTarea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarTarea">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditarTarea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarTarea">
+      <soap:operation soapAction="http://tempuri.org/IService1/EliminarTarea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:53541/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

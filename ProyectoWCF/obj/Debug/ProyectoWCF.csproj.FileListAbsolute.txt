@@ -1,0 +1,7 @@
+C:\Users\FapCod\source\repos\RetoWeb\ProyectoWCF\bin\ProyectoWCF.dll.config
+C:\Users\FapCod\source\repos\RetoWeb\ProyectoWCF\bin\ProyectoWCF.dll
+C:\Users\FapCod\source\repos\RetoWeb\ProyectoWCF\bin\ProyectoWCF.pdb
+C:\Users\FapCod\source\repos\RetoWeb\ProyectoWCF\obj\Debug\ProyectoWCF.csproj.AssemblyReference.cache
+C:\Users\FapCod\source\repos\RetoWeb\ProyectoWCF\obj\Debug\ProyectoWCF.csproj.CoreCompileInputs.cache
+C:\Users\FapCod\source\repos\RetoWeb\ProyectoWCF\obj\Debug\ProyectoWCF.dll
+C:\Users\FapCod\source\repos\RetoWeb\ProyectoWCF\obj\Debug\ProyectoWCF.pdb

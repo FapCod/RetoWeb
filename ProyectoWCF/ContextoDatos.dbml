@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BDTODO" Class="ContextoDatosDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=FAPCODPC;Initial Catalog=BDTODO;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BDTODOConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TAREA" Member="TAREA">
+    <Type Name="TAREA">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TITULO" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+      <Column Name="NOTAS" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ESTADO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PRIORIDAD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FECHA_CREACION" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FECHA_TERMINO" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

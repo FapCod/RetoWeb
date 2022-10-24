@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\ProyectoWCF</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ProyectoWCF.dll">
+      <publishTime>10/24/2022 16:36:56</publishTime>
+    </File>
+    <File Include="bin/ProyectoWCF.pdb">
+      <publishTime>10/24/2022 16:36:56</publishTime>
+    </File>
+    <File Include="ContextoDatos.dbml">
+      <publishTime>10/23/2022 20:17:34</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>10/23/2022 20:09:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/24/2022 14:49:40</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

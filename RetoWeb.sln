@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetoWeb", "RetoWeb\RetoWeb.csproj", "{4E17079A-83BC-4347-A815-582DDD88C2BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E655ACB5-221E-43B3-A554-4B225794396E} = {E655ACB5-221E-43B3-A554-4B225794396E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoWCF", "ProyectoWCF\ProyectoWCF.csproj", "{E655ACB5-221E-43B3-A554-4B225794396E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E17079A-83BC-4347-A815-582DDD88C2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E17079A-83BC-4347-A815-582DDD88C2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E17079A-83BC-4347-A815-582DDD88C2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E17079A-83BC-4347-A815-582DDD88C2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E655ACB5-221E-43B3-A554-4B225794396E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E655ACB5-221E-43B3-A554-4B225794396E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E655ACB5-221E-43B3-A554-4B225794396E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E655ACB5-221E-43B3-A554-4B225794396E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6959AF74-888A-41EA-9C79-09E35376E452}
+	EndGlobalSection
+EndGlobal
